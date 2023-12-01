@@ -36,7 +36,7 @@ do
             break;
 
         case ADD_SORTED:
-            Console.WriteLine(lineOfPeople.AddSorted(GetPersonFromUser()));
+            lineOfPeople.AddSorted(GetPersonFromUser());
             break;
 
         case PRINT:
